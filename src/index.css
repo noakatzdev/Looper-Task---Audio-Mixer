@@ -11,3 +11,91 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.displayCurrentPlaying{
+  height: 1px;
+  width: 1px;
+  
+}
+
+.muteBtn{
+padding-bottom: 20px;
+
+}
+
+.AntiqueWhite{
+  background-color: AntiqueWhite;
+  width: 1000px;
+  height: 150px ;
+}
+
+.Coral{
+  background-color: coral;
+  width: 1000px;
+  height: 150px ;
+}
+
+.BurlyWood{
+  background-color: burlywood;
+  width: 1000px;
+  height: 150px ;
+}
+
+.DarkSalmon{
+  background-color: darksalmon;
+  width: 1000px;
+  height: 150px ;
+}
+
+.IndianRed{
+  background-color: indianred;
+  width: 1000px;
+  height: 150px ;
+}
+
+.Linen{
+  background-color: linen;
+  width: 1000px;
+  height: 150px ;
+}
+
+.PeachPuff{
+  background-color: peachpuff;
+  width: 1000px;
+  height: 150px ;
+}
+
+.SandyBrown{
+  background-color: sandybrown;
+  width: 1000px;
+  height: 150px ;
+}  
+
+
+.audio-player {
+  width: 15rem;
+  height: 15rem;
+}
+
+
+input[type=range]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+  appearance: none;
+  width: 1px;
+  height: 160px;
+  border-radius: 10%; 
+  background: white;
+
+  cursor: pointer;
+}
+
+input[type=range] {
+  -webkit-appearance: none; /* Hides the slider so that custom slider can be made */
+  width: 40%; /* Specific width is required for Firefox. */
+  background: transparent; /* Otherwise white in Chrome */
+}
+#trackContainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
